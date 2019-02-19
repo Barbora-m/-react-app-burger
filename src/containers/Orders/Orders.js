@@ -35,8 +35,6 @@ class Orders extends Component {
             price={order.price} //if price={+order.price} - inst.parse float
           />
         ))}
-        <Order />
-        <Order />
       </div>
     );
   }
